@@ -1,6 +1,27 @@
 # Otopark Otomasyonu
+## Projeyi Çalıştırma
 
-## Gereksinimler
+### `npm install`
+
+### `npm start`
+
+[http://localhost:3000](http://localhost:3000)
+ile önyüz e erişim sağlanmaktadır
+
+Proje aynı zamanda Dockerize edilmiştir.
+
+### `docker build --no-cache -t otopark-frontend .`
+
+Bu Komut ile docker image oluşturulabilir
+
+### `docker run -d --name otopark-frontend  -p 3001:3000 otopark-frontend`
+
+Bu Komut ile proje docker container içerisinde çalışacaktır
+
+[http://localhost:3001](http://localhost:3001)
+ile önyüz e erişim sağlanabilir
+
+## Problem
 
 -         Tüm işlemler REST servisleri üzerinden ilerleyecek.
 
@@ -30,29 +51,8 @@
 
 -         Araç yerleştirmesi en optimum şekilde yapılacaktır
 
-## Projeyi Çalıştırma
 
-### `npm install`
-
-### `npm start`
-
-[http://localhost:3000](http://localhost:3000) 
-ile önyüz e erişim sağlanmaktadır
-
-Proje aynı zamanda Dockerize edilmiştir.
-
-### `docker build --no-cache -t otopark .`
-
-Bu Komut ile docker image oluşturulabilir
-
-### `docker run -d --name otopark  -p 3001:3000 otopark`
-
-Bu Komut ile proje docker container içerisinde çalışacaktır
-
-[http://localhost:3001](http://localhost:3001)
-ile önyüz e erişim sağlanabilir
-
-## Yapılanlar
+## Notlar
 
 -       Güvenlik Jwt Token ile gerçekleştirilmiştir. Token Local Storage da tutulmuştur.
 
