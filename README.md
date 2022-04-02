@@ -76,3 +76,15 @@ ile önyüz e erişim sağlanabilir
         indirim otomatik olarak dahil edilmektedir.
 
 -       Birim Fiyat Güncelle Modal: Baz Fiyatın güncelleme işlemi buradan yapılmaktadır.
+
+
+## Ekran Görüntüleri
+
+![image](https://user-images.githubusercontent.com/20740558/161401213-4af5bfad-ab39-474d-9c53-e355fabf33b6.png)
+
+![image](https://user-images.githubusercontent.com/20740558/161401233-bfbaf8a1-75b4-484e-b09a-629f0591ddc3.png)
+
+![image](https://user-images.githubusercontent.com/20740558/161401260-c2316501-6d5b-40d0-b24c-f3f7fa86236d.png)
+
+
+
