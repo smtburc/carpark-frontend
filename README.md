@@ -21,7 +21,7 @@ Bu Komut ile proje docker container içerisinde çalışacaktır
 [http://localhost:3001](http://localhost:3001)
 ile önyüz e erişim sağlanabilir
 
-## Problem
+## İstek
 
 -         Tüm işlemler REST servisleri üzerinden ilerleyecek.
 
