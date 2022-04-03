@@ -6,7 +6,7 @@ import TokenService from "./TokenService";
  * Token kontrolü TokenService üzerinden sorgulanıyor.
  */
 const token = TokenService.getToken();
-const baseURL = "http://localhost:8086";
+const baseURL = "http://localhost:8086/api/v1/";
 const CancelToken = axios.CancelToken;
 const source = CancelToken.source();
 /**
@@ -60,6 +60,7 @@ export const getRequest = (url, options) => {
         content: "Oturumunuz Sonlanmıştır",
       });
       TokenService.deleteToken();
+      window.location.reload();
     }
   });
 };
@@ -85,6 +86,7 @@ export const postRequest = (url, body, options) => {
         content: "Oturumunuz Sonlanmıştır",
       });
       TokenService.deleteToken();
+      window.location.reload();
     }else if (error.response.status == 400) {
       Modal.error({
         title: "Hata",
